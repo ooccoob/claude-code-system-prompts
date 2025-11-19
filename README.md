@@ -1,6 +1,6 @@
 # Claude Code System Prompts
 
-This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.42](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.42) (November 14th, 2025).**
+This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.43](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.43) (November 17th, 2025).**
 
 Why multiple "system prompts?"
 
@@ -75,7 +75,7 @@ Misc large strings.
 
 Parts of the main system prompt.
 
-- [**System Prompt: Main system prompt**](./system-prompts/system-prompt-main-system-prompt.md) (**2487** tks) - Core system prompt for Claude Code defining behavior, tone, and tool usage policies.
+- [**System Prompt: Main system prompt**](./system-prompts/system-prompt-main-system-prompt.md) (**2601** tks) - Core system prompt for Claude Code defining behavior, tone, and tool usage policies.
 - [System Prompt: Learning mode (insights)](./system-prompts/system-prompt-learning-mode-insights.md) (**142** tks) - Instructions for providing educational insights when learning mode is active.
 - [System Prompt: Learning mode](./system-prompts/system-prompt-learning-mode.md) (**1042** tks) - System Prompt: Main system prompt for learning mode with human collaboration instructions.
 - [System Prompt: MCP CLI](./system-prompts/system-prompt-mcp-cli.md) (**1357** tks) - Instructions for using mcp-cli to interact with Model Context Protocol servers.
@@ -87,13 +87,15 @@ Text for large system reminders.
 > [!NOTE]
 > Note that we're planning to add a **system reminder creator/editor** to [tweakcc](https://github.com/Piebald-AI/tweakcc); :+1: [this issue](https://github.com/Piebald-AI/tweakcc/issues/113) if you're interested in that idea.
 
-- [System Reminder: Plan mode is active (enhanced)](./system-prompts/system-reminder-plan-mode-is-active-enhanced.md) (**747** tks) - Enhanced plan mode system reminder.
+- [System Reminder: Plan mode is active (enhanced)](./system-prompts/system-reminder-plan-mode-is-active-enhanced.md) (**1093** tks) - Enhanced plan mode system reminder.
+- [System Reminder: Plan mode is active (for subagents)](./system-prompts/system-reminder-plan-mode-is-active-for-subagents.md) (**310** tks) - Simplified plan mode system reminder for sub agents.
 - [System Reminder: Plan mode is active](./system-prompts/system-reminder-plan-mode-is-active.md) (**242** tks) - System reminder sent to Claude when the user enters plan mode.
 
 ### Builtin Tool Descriptions
 
 - [Tool Description: Bash](./system-prompts/tool-description-bash.md) (**1074** tks) - Description for the Bash tool, which allows Claude to run shell commands.
 - [Tool Description: Edit](./system-prompts/tool-description-edit.md) (**278** tks) - Tool description for performing exact string replacements in files.
+- [Tool Description: ExitPlanMode v2](./system-prompts/tool-description-exitplanmode-v2.md) (**450** tks) - V2 description for the ExitPlanMode tool, which presents a plan dialog for the user to approve.
 - [Tool Description: ExitPlanMode](./system-prompts/tool-description-exitplanmode.md) (**342** tks) - Description for the ExitPlanMode tool, which presents a plan dialog for the user to approve.
 - [Tool Description: Glob](./system-prompts/tool-description-glob.md) (**122** tks) - Tool description for file pattern matching and searching by name.
 - [Tool Description: Grep](./system-prompts/tool-description-grep.md) (**300** tks) - Tool description for content search using ripgrep.
