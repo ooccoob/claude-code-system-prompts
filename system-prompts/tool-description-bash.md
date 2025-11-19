@@ -1,7 +1,7 @@
 <!--
 name: 'Tool Description: Bash'
 description: Description for the Bash tool, which allows Claude to run shell commands
-ccVersion: 2.0.14
+ccVersion: 2.0.25
 variables:
   - CUSTOM_TIMEOUT_MS
   - MAX_TIMEOUT_MS
@@ -40,7 +40,7 @@ Usage notes:
   - You can specify an optional timeout in milliseconds (up to ${CUSTOM_TIMEOUT_MS()}ms / ${CUSTOM_TIMEOUT_MS()/60000} minutes). If not specified, commands will timeout after ${MAX_TIMEOUT_MS()}ms (${MAX_TIMEOUT_MS()/60000} minutes).
   - It is very helpful if you write a clear, concise description of what this command does in 5-10 words.
   - If the output exceeds ${MAX_OUTPUT_CHARS()} characters, output will be truncated before being returned to you.
-  - You can use the \`run_in_background\` parameter to run the command in the background, which allows you to continue working while the command runs. You can monitor the output using the ${BASH_TOOL_NAME} tool as it becomes available. Never use \`run_in_background\` to run 'sleep' as it will return immediately. You do not need to use '&' at the end of the command when using this parameter.
+  - You can use the \`run_in_background\` parameter to run the command in the background, which allows you to continue working while the command runs. You can monitor the output using the ${BASH_TOOL_NAME} tool as it becomes available. You do not need to use '&' at the end of the command when using this parameter.
   ${BASH_TOOL_EXTRA_NOTES()}
   - Avoid using Bash with the \`find\`, \`grep\`, \`cat\`, \`head\`, \`tail\`, \`sed\`, \`awk\`, or \`echo\` commands, unless explicitly instructed or when these commands are truly necessary for the task. Instead, always prefer using the dedicated tools for these commands:
     - File search: Use ${SEARCH_TOOL_NAME} (NOT find or ls)

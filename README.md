@@ -1,6 +1,6 @@
 # Claude Code System Prompts
 
-This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.24](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.24) (October 20th, 2025).**
+This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.0.25](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.0.25) (October 21st, 2025).**
 
 Why multiple "system prompts?"
 
@@ -53,8 +53,8 @@ Sub-agents and utilities.
 - [Agent Prompt: Conversation summarization with additional instructions](./system-prompts/agent-prompt-conversation-summarization-with-additional-instructions.md) (**1133** tks) - Extended summarization prompt with support for custom additional instructions.
 - [Agent Prompt: Conversation summarization](./system-prompts/agent-prompt-conversation-summarization.md) (**1121** tks) - System prompt for creating detailed conversation summaries.
 - [Agent Prompt: Output style creation](./system-prompts/agent-prompt-output-style-creation.md) (**724** tks) - System prompt for the output-style-setup agent that creates custom output styles.
-- [Agent Prompt: Session notes template](./system-prompts/agent-prompt-session-notes-template.md) (**195** tks) - Template structure for session notes tracking coding work and decisions.
-- [Agent Prompt: Session notes update instructions](./system-prompts/agent-prompt-session-notes-update-instructions.md) (**501** tks) - Instructions for updating session notes files during conversations.
+- [Agent Prompt: Session notes template](./system-prompts/agent-prompt-session-notes-template.md) (**226** tks) - Template structure for session notes tracking coding work and decisions.
+- [Agent Prompt: Session notes update instructions](./system-prompts/agent-prompt-session-notes-update-instructions.md) (**730** tks) - Instructions for updating session notes files during conversations.
 - [Agent Prompt: Session title generation](./system-prompts/agent-prompt-session-title-generation.md) (**159** tks) - System prompt for generating succinct titles for coding sessions.
 - [Agent Prompt: User sentiment analysis](./system-prompts/agent-prompt-user-sentiment-analysis.md) (**205** tks) - System prompt for analyzing user frustration and PR creation requests.
 - [Agent Prompt: WebFetch summarizer](./system-prompts/agent-prompt-webfetch-summarizer.md) (**147** tks) - Prompt for agent that summarizes verbose output from WebFetch for the main model.
@@ -88,7 +88,7 @@ Text for large system reminders.
 
 ### Builtin Tool Descriptions
 
-- [Tool Description: Bash](./system-prompts/tool-description-bash.md) (**1097** tks) - Description for the Bash tool, which allows Claude to run shell commands.
+- [Tool Description: Bash](./system-prompts/tool-description-bash.md) (**1074** tks) - Description for the Bash tool, which allows Claude to run shell commands.
 - [Tool Description: Edit](./system-prompts/tool-description-edit.md) (**278** tks) - Tool description for performing exact string replacements in files.
 - [Tool Description: ExitPlanMode](./system-prompts/tool-description-exitplanmode.md) (**200** tks) - Description for the ExitPlanMode tool, which presents a plan dialog for the user to approve.
 - [Tool Description: Glob](./system-prompts/tool-description-glob.md) (**122** tks) - Tool description for file pattern matching and searching by name.
