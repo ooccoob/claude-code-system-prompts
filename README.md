@@ -14,7 +14,7 @@ Instead, there are:
 
 The result&mdash;40+ strings that are constantly changing and moving within a very large minified JS file.
 
-> [!NOTE]
+> [!TIP]
 > Want to **modify a particular piece of the system prompt** in your own Claude Code installation?  **Use [tweakcc](https://github.com/Piebald-AI/tweakcc).**  It&mdash;
 > - lets you customize the the individual pieces of the system prompt as markdown files, and then
 > - patches your npm-based or native (binary) Claude Code installation with them, and also
@@ -88,7 +88,7 @@ Parts of the main system prompt.
 
 Text for large system reminders.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Note that we're planning to add a **system reminder creator/editor** to [tweakcc](https://github.com/Piebald-AI/tweakcc).  Please react with :+1: to [this issue]([https://github.com/Piebald-AI/tweakcc/issues/113](https://github.com/Piebald-AI/tweakcc/issues/212)) if you're interested in that idea.
 
 - [System Reminder: Plan mode is active (enhanced)](./system-prompts/system-reminder-plan-mode-is-active-enhanced.md) (**893** tks) - Enhanced plan mode system reminder with parallel exploration and multi-agent planning.
