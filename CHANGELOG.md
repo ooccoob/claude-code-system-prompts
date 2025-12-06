@@ -4,6 +4,10 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 ### Claude Code System Prompts Changelog
 
+#### [2.0.57](https://github.com/Piebald-AI/claude-code-system-prompts/commit/8b2ecb38493daf677fcba54746d2c3e40de6f657)
+
+<sub>_No changes to the system prompts in v2.0.57._</sub>
+
 # [2.0.56](https://github.com/Piebald-AI/claude-code-system-prompts/commit/47571b6ad6110bebc89553bba49ebcf94f4605fc)
 
 - Reinforced note about using the current year in the WebSearch tool description
