@@ -4,6 +4,20 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 ### Claude Code System Prompts Changelog
 
+# [2.0.70](https://github.com/Piebald-AI/claude-code-system-prompts/commit/d1f3263)
+
+_+2283 tokens_
+
+- **NEW:** Agent Prompt: /review-pr slash command - system prompt for reviewing GitHub PRs with code analysis
+- **NEW:** Agent Prompt: Task tool (extra notes) - additional notes for Task tool usage (absolute paths, no emojis, no colons before tool calls)
+- **NEW:** System Reminder: Delegate mode prompt - system reminder for delegate mode with restricted tool access
+- **NEW:** Tool Description: MCPSearch - tool for searching/selecting MCP tools before use (mandatory prerequisite)
+- **NEW:** Tool Description: MCPSearch (with available tools) - MCPSearch variant that lists available MCP tools
+- **NEW:** Tool Description: TaskList - tool for listing all tasks in the task list
+- **NEW:** Tool Description: TeammateTool's operation parameter - description of TeammateTool operations (spawn, assignTask, claimTask, shutdown, etc.)
+- Agent Prompt: Status line setup - Added `current_usage` object to context_window schema with `input_tokens`, `output_tokens`, `cache_creation_input_tokens`, and `cache_read_input_tokens` fields; added example for calculating context window percentage
+- Tool Description: TaskUpdate - Added instruction to call TaskList after resolving a task; added note about teammates adding comments while working
+
 #### [2.0.69](https://github.com/Piebald-AI/claude-code-system-prompts/commit/b1a1784488f3f3bccdbe5bc6449c0ba6a34e4b39)
 
 <sub>_No changes to the system prompts in v2.0.69._</sub>
